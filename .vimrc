@@ -42,7 +42,7 @@
 	"set autochdir 				" always switch to the current file directory.. Messes with some plugins, best left commented out
 	" not every vim is compiled with this, use the following line instead
 	" If you use command-t plugin, it conflicts with this, comment it out.
-     "autocmd BufEnter * if bufname("") !~ "^\[A-Za-z0-9\]*://" | lcd %:p:h | endif
+    autocmd BufEnter * if bufname("") !~ "^\[A-Za-z0-9\]*://" | lcd %:p:h | endif
 	scriptencoding utf-8
 
 	" set autowrite                  " automatically write a file when leaving a modified buffer
@@ -51,7 +51,7 @@
 	set virtualedit=onemore 	   	" allow for cursor beyond last character
 	set history=1000  				" Store a ton of history (default is 20)
 	set spell 		 	        	" spell checking on
-	
+
 	" Setting up the directories {
 		set backup 						" backups are nice ...
         " Moved to function at bottom of the file
@@ -354,6 +354,10 @@
         endif
      " }
 
+     " VIM-Latex {
+          set grepprg=grep\ -nH\ $*
+          let g:tex_flavor='latex'
+     " }
 
 	" Richard's plugins {
 		" Fuzzy Finder {
