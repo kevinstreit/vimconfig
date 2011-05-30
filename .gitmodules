@@ -64,3 +64,6 @@
 [submodule ".vim/bundle/vim-latex"]
 	path = .vim/bundle/vim-latex
 	url = git://github.com/kevinstreit/VIM-Latex.git
+[submodule ".vim/bundle/clang-complete"]
+	path = .vim/bundle/clang-complete
+	url = https://github.com/Rip-Rip/clang_complete.git

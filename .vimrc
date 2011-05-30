@@ -359,6 +359,14 @@
           let g:tex_flavor='latex'
      " }
 
+     " Clang-Complete {
+          let g:clang_complete_auto = 0
+          let g:clang_snippets = 1
+          let g:clang_complete_macros = 1
+          let g:clang_complete_patterns = 1
+          let g:clang_snippets_engine = 'snipmate'
+     " }
+
 	" Richard's plugins {
 		" Fuzzy Finder {
 			""" Fuzzy Find file, tree, buffer, line
