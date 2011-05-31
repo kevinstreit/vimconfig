@@ -366,6 +366,10 @@
           let g:clang_complete_patterns = 1
           let g:clang_snippets_engine = 'snipmate'
      " }
+    
+     " Haskell-Mode {
+          au Bufenter *.hs compiler ghc
+     " }
 
 	" Richard's plugins {
 		" Fuzzy Finder {
