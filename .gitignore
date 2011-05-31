@@ -1,3 +1,6 @@
 .DS_Store
 *.pyc
 *._*
+.vim/.VimballRecord
+.vim/doc/tags
+.vim/haskellmode.config
