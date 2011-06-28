@@ -216,11 +216,6 @@
 		"let cfu=phpcomplete#CompletePHP
 	" }
 	
-	" Supertab {
-		let g:SuperTabDefaultCompletionType = "context"
-		let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
-	" }
-
 	" Misc { 
 		:map <C-F10> <Esc>:vsp<CR>:VTree<CR>
 		" map Control + F10 to Vtree
