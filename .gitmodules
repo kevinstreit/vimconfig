@@ -61,3 +61,6 @@
 [submodule ".vim/bundle/haskell-mode"]
 	path = .vim/bundle/haskell-mode
 	url = git@github.com:kevinstreit/VIM-Haskell.git
+[submodule ".vim/bundle/vim-snipcloudmate"]
+	path = .vim/bundle/vim-snipcloudmate
+	url = git://github.com/kevinstreit/VIMSnipCloudMate.git

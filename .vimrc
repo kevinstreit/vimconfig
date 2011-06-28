@@ -69,7 +69,6 @@
 " }
 
 " Vim UI {
-	color solarized   	       		" load a colorscheme
 	set tabpagemax=15 				" only show 15 tabs
 	set showmode                   	" display the current mode
 
@@ -113,8 +112,8 @@
 	set scrolloff=3 				" minimum lines to keep above and below cursor
 	set foldenable  				" auto fold code
 	set gdefault					" the /g flag on :s substitutions by default
-    set list
-    set listchars=tab:>.,trail:.,extends:#,nbsp:. " Highlight problematic whitespace
+	set list
+	set listchars=tab:>.,trail:.,extends:.,nbsp:. " Highlight problematic whitespace
 
 
 " }
